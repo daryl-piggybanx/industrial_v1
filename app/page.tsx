@@ -175,7 +175,7 @@ export default function LandingPage() {
 
           {/* OG Form */}
           <motion.div
-            className="relative overflow-hidden bg-silver-gray/10 border border-white/20 z-10 rounded-bl-[15%] bg-clip-content"
+            className="relative overflow-hidden bg-silver-gray/10 border border-white/20 z-10"
             onHoverStart={() => setHoveredSection("og")}
             onHoverEnd={() => setHoveredSection(null)}
             whileHover={{ scale: 0.98 }}
@@ -220,7 +220,7 @@ export default function LandingPage() {
 
           {/* New Collector Application */}
           <motion.div
-            className="relative overflow-hidden bg-silver-gray/10 border border-white/20 z-10 rounded-br-[15%] bg-clip-content"
+            className="relative overflow-hidden bg-silver-gray/10 border border-white/20 z-10"
             onHoverStart={() => setHoveredSection("new")}
             onHoverEnd={() => setHoveredSection(null)}
             whileHover={{ scale: 0.98 }}
@@ -267,7 +267,7 @@ export default function LandingPage() {
         {/* Launch Button - highest z-index */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
           <motion.button
-            className="relative w-32 h-32 rounded-full bg-silver-gray border-4 border-red-accent flex items-center justify-center overflow-hidden"
+            className="relative w-32 h-32 rounded-full bg-black/50 border-4 border-red-accent flex items-center justify-center overflow-hidden"
             onClick={handleLaunchClick}
             whileTap={{ scale: 0.95 }}
             animate={{
